@@ -17,13 +17,14 @@ class Coordinate {
             else {
                 return false
         }
-        
     }
+    
     var isInSoutherHemisphere: Bool {
         if latitude < 0 {
             return true
         } else {
-            return false }
+            return false
+        }
     }
     
     var isInWesternHemisphere: Bool {
@@ -47,14 +48,11 @@ class Coordinate {
         self.longitude = longitude
     }
     
-    func distanceTo(coordinate: Coordinate) -> Double {
+    func distance(to coordinate: Coordinate) -> Double {
         return acos(sin(self.latitude.radians) * sin(coordinate.latitude.radians) + cos(self.latitude.radians) * cos(coordinate.latitude.radians) * cos(self.longitude.radians-coordinate.longitude.radians)) * 6371000 / 1000
     }
     
 }
-
-
-
 
 extension Double {
     var radians: Double {

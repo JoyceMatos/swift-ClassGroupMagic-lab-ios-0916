@@ -8,7 +8,7 @@
 
 import Foundation
 
-class pizzaDeliveryService {
+class PizzaDeliveryService {
     var location: Coordinate
     var pizzasAvailable: Int
     
@@ -18,7 +18,7 @@ class pizzaDeliveryService {
     }
     
     func isInRange(destination: Coordinate) -> Bool {
-        if destination.distanceTo(coordinate: self.location) < 5000 {
+        if destination.distance(to: self.location) < 5000 {
             return true
         } else {
             return false
@@ -26,13 +26,16 @@ class pizzaDeliveryService {
         
     }
     
-    func deliverPizzaTo(destination: Coordinate) -> Bool {
-        if isInRange(destination: self.location) == true {
+    func deliverPizza(to destination: Coordinate) -> Bool {
+        if isInRange(destination: destination) == true {
             if pizzasAvailable > 0 {
             pizzasAvailable -= 1
             return true
             }
-        } else if pizzasAvailable == 0 {
+        }
+         else if pizzasAvailable == 0 {
             return false
-    }
+        }
+        return false
+        }
 }

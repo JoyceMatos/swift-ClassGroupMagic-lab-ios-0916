@@ -10,6 +10,7 @@
 		258BE9581D9C57DA003B938D /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BE9571D9C57DA003B938D /* Tiger.swift */; };
 		258BE95A1D9C598A003B938D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BE9591D9C598A003B938D /* Coordinate.swift */; };
 		258BE95C1D9C6268003B938D /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BE95B1D9C6268003B938D /* PizzaDeliveryService.swift */; };
+		258BE9681D9DA9DE003B938D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BE9671D9DA9DE003B938D /* Person.swift */; };
 		5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B077DD91D9C519B003DCE37 /* AppDelegate.swift */; };
 		5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B077DDB1D9C519B003DCE37 /* ViewController.swift */; };
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		258BE9571D9C57DA003B938D /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		258BE9591D9C598A003B938D /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		258BE95B1D9C6268003B938D /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		258BE9671D9DA9DE003B938D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5B077DD61D9C519B003DCE37 /* PeopleAndPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleAndPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B077DD91D9C519B003DCE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B077DDB1D9C519B003DCE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				258BE9571D9C57DA003B938D /* Tiger.swift */,
 				258BE9591D9C598A003B938D /* Coordinate.swift */,
 				258BE95B1D9C6268003B938D /* PizzaDeliveryService.swift */,
+				258BE9671D9DA9DE003B938D /* Person.swift */,
 				5B077DDD1D9C519B003DCE37 /* Main.storyboard */,
 				5B077DE01D9C519B003DCE37 /* Assets.xcassets */,
 				5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258BE9681D9DA9DE003B938D /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
 				258BE9581D9C57DA003B938D /* Tiger.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,

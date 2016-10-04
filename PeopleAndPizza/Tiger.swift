@@ -10,10 +10,11 @@ import Foundation
 
 class Tiger {
     var name: String
-    var isHungry = true
+    var isHungry: Bool
     
     init(name: String) {
         self.name = name
+        self.isHungry = true
     }
     
     func eat() {
